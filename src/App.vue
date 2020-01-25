@@ -4,9 +4,13 @@
   </div>
 </template>
 <script>
+import Breadstick from 'breadstick'
+
+const breadstick = new Breadstick()
+
 export default {
   mounted () {
-    this.$breadstick.notify('I love me some breadstick 🥰');
+    breadstick.notify('I love me some breadstick 🥰');
   }
 }
 </script>
