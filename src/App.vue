@@ -10,7 +10,9 @@ const breadstick = new Breadstick()
 
 export default {
   mounted () {
-    breadstick.notify('I love me some breadstick 🥰');
+    breadstick.notify("Using position top-left", {
+      position: 'top-left'
+    })
   }
 }
 </script>
